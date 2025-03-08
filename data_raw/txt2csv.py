@@ -1,5 +1,5 @@
 """
-将 data_raw 目录下的所有 txt 文件重命名为 csv 文件
+将当前目录下的所有 txt 文件重命名为 csv 文件
 """
 import os
 
