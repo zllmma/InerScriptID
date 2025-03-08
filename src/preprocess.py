@@ -10,10 +10,10 @@ from scipy.signal import savgol_filter
 import shutil
 from scipy.interpolate import UnivariateSpline
 
-dataset_path = 'dataset'
+dataset_path = 'data_raw'
 target_length = 10000
 for i in range(11):
-    folder_path = dataset_path + f'\\{i+1}'
+    folder_path = dataset_path + f'/{i+1}'
     new_folder_path = f'preprocessed_data/{i+1}'
     os.makedirs(new_folder_path, exist_ok=True)
 
