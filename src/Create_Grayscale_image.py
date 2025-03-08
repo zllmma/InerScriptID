@@ -11,7 +11,7 @@ def normalize(signal):
     return (signal - np.min(signal)) / (np.max(signal) - np.min(signal)) * 255
 
 
-folder = 'preprocessed_data'
+folder = 'data_raw'
 new_folder = 'Grayscale_images_mixed'
 os.makedirs(new_folder, exist_ok=True)
 
