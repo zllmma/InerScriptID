@@ -16,7 +16,7 @@ def normalize(value, max_value, min_value, size):
 
 
 for i in range(11):
-    folder = f'preprocessed_data\{i+1}'
+    folder = f'preprocessed_data/{i+1}'
     image_folder = os.path.join(new_folder, f'{i+1}')
     os.makedirs(image_folder, exist_ok=True)
     for filename in os.listdir(folder):
