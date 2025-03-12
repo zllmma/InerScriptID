@@ -6,7 +6,7 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-new_folder = 'Trajectory_Projection_Diagram' #  创建一个新的文件夹用于存放轨迹投影图片
+new_folder = 'img/Trajectory_Projection_Diagram' #  创建一个新的文件夹用于存放轨迹投影图片
 os.makedirs(new_folder, exist_ok=True)
 
 

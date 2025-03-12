@@ -12,7 +12,7 @@ def normalize(signal):
 
 
 folder = 'preprocessed_data'
-new_folder = 'Grayscale_images_mixed'
+new_folder = 'img/Grayscale_images_mixed'
 os.makedirs(new_folder, exist_ok=True)
 
 for i in range(11):
